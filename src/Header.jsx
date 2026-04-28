@@ -6,6 +6,7 @@ const Header = () => {
     <div>
         <ul className='navbarLinks'>
             <li ><Link to={"/"}>Home</Link></li>
+            <li ><Link to={"/HideOrShow"}>HideShow</Link></li>
         </ul>
     </div>
   )

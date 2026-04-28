@@ -2,6 +2,7 @@
   list-style: none;
   display: flex;
   justify-content: center;
+  gap: 10px;
 }
 
 .navbarLinks a {
@@ -26,6 +27,7 @@
 .theBody{
   display: flex;
   justify-self: center;
+  
 }
 .counterApp{
   height: 200px;
@@ -36,5 +38,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: cente;
+  justify-content: center;
+  gap: 10px;
 }
