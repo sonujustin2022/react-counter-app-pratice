@@ -4,6 +4,7 @@ import './App.css'
 import Header from './Header'
 import Home from './Home'
 import HideOrShow from './HideOrShow'
+import ShowInput from './ShowInput'
 function App() {
 
 
@@ -13,6 +14,7 @@ function App() {
     <Routes>
       <Route path='/' element = {<Home/>}/>
        <Route path='/HideOrShow' element = {<HideOrShow/>}/>
+        <Route path='/ShowInput' element = {<ShowInput/>}/>
     </Routes>
     </>
   )

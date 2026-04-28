@@ -2,7 +2,7 @@
   list-style: none;
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 40px;
 }
 
 .navbarLinks a {
@@ -40,4 +40,14 @@
   align-items: center;
   justify-content: center;
   gap: 10px;
+}
+
+.box{
+  padding: 10px;
+  background-color: blue;
+  height: 200px;
+  width: 300px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 0 20px red;
 }
